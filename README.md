@@ -24,6 +24,9 @@ Then grab the parameters for next steps:
 | Tenant ID    | Entra ID tenant ID |
 | Subscription ID | Azure subscription ID |
 | App Name     | name of the app registration. This should be unique in the Entra ID |
+| Github org name | Github organization name |
+| Github repo name | Github repository name |
+| Github branch name | name of the branch used to run this federated workflow |
 
 ### Step 2: Edit parameter file
 
