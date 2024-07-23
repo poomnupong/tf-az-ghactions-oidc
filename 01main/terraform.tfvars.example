@@ -1,0 +1,3 @@
+TENANTID       = "your-tenant-id-here"
+SUBSCRIPTIONID = "your-subscription-id-here"
+APPNAME        = "your-app-name-here"
