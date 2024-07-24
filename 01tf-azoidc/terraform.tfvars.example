@@ -1,0 +1,6 @@
+TENANTID       = "your-tenant-id-here"
+SUBSCRIPTIONID = "your-subscription-id-here"
+APPNAME        = "your-app-name-here"
+GHORGNAME      = "your-github-org-name-here"
+GHREPONAME     = "your-github-repo-name-here"
+GHBRANCHNAME   = "your-github-branch-name-here"

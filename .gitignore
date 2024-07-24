@@ -6,6 +6,3 @@
 
 # Ignore .terraform directory
 .terraform/
-
-# Ignore any file with .example extension
-*.example
