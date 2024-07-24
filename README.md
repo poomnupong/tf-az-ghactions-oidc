@@ -30,7 +30,22 @@ Then grab the parameters for next steps:
 
 ### Step 2: Edit parameter file
 
+Copy terraform.tfvars.example into terraform.tfvars and fill in the parameters.
+For example:
+```
+TENANTID       = "123e4567-e89b-12d3-a456-426614174000"
+SUBSCRIPTIONID = "987fbc97-4bed-5078-af07-9141ba07c9f3"
+APPNAME        = "githubactions-oidc1-app"
+GHORGNAME      = "poomnupong"
+GHREPONAME     = "testrepo1"
+GHBRANCHNAME   = "main"
+```
 
+Then deploy it.  
+
+### Next:
+
+From this point you can create the matching Github repo with workflows in the matching branch name, specifying only tenant ID and subscription ID in the code which will authenticate thorugh this service principal.
 
 ## References
 
