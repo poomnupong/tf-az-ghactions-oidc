@@ -63,7 +63,6 @@ resource "azurerm_role_assignment" "example" {
   scope          = data.azurerm_subscription.primary.id
 }
 
-
 resource "azuread_application_federated_identity_credential" "github_oidc" {
   application_id = azuread_application.example.id
   display_name          = "oidc-gh-${var.GHORGNAME}-${var.GHREPONAME}-${var.GHBRANCHNAME}"
